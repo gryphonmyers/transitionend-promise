@@ -1,0 +1,29 @@
+{
+  "name": "transitionend-promise",
+  "version": "1.0.0",
+  "description": "Promisifies the transitionend js event for CSS transitions",
+  "main": "src/transitionend-promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gryphonmyers/transitionend-promise.git"
+  },
+  "keywords": [
+    "transitionend",
+    "CSS",
+    "transition",
+    "promise",
+    "ES6"
+  ],
+  "author": "Gryphon Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gryphonmyers/transitionend-promise/issues"
+  },
+  "homepage": "https://github.com/gryphonmyers/transitionend-promise#readme",
+  "dependencies": {
+    "vendor-prefix": "^0.1.0"
+  }
+}
