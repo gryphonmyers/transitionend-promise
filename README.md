@@ -29,6 +29,6 @@ npm install transitionend-promise
 
     transitionPromise(myDOMEl, 'transform')
         .then(evt => {
-            console.log('We did a barrel roll and I have the origin transitionend event object to prove it.', evt);
+            console.log('We did a barrel roll and I have the original transitionend event object to prove it.', evt);
         });
 ```
