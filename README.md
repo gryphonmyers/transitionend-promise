@@ -21,7 +21,7 @@ npm install transitionend-promise
 ```
 
 ```javascript
-    const transitionEnd = require('transitionend-promise);
+    const transitionEnd = require('transitionend-promise');
 
     var myDOMEl = document.querySelector('#foo');
 
