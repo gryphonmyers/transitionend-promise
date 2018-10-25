@@ -8,8 +8,9 @@ module.exports = function(el, prop) {
     if (el.parentNode && vendorPrefix('transition')) {
         prop = prop ? vendorPrefix(prop) : null;
         var style = getComputedStyle(el);
-        var durations = style.transitionDuration.split(',');
-        var properties = style.transitionProperty.split(',');
+
+        var durations = (style.transitionDuration || '').split(',');
+        var properties = (style.transitionProperty || '').split(',');
 
         var timeout = properties.reduce((final, curr, ii) => {
             return curr === 'all' ? 
