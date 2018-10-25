@@ -1,6 +1,6 @@
 {
   "name": "transitionend-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promisifies the transitionend js event for CSS transitions",
   "main": "src/transitionend-promise.js",
   "scripts": {
